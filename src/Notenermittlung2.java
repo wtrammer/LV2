@@ -1,12 +1,19 @@
 
-public class Notenermittlung {
+public class Notenermittlung2 {
 
-	
-	 
 	public static void main(String[] args) {
-
-	int noten = 4;
-	String note = "nix";
+		
+		String note = "nix";
+		int noten = 90;
+		
+		System.out.println("Note = " + note);
+		
+	}
+	
+	
+	public static String note(int noten)	{
+		
+			
 	
 	if (noten >= 90)
 	{
@@ -31,9 +38,6 @@ public class Notenermittlung {
 	{
 		note = "Nicht Genügend";
 	}
-		
-		System.out.println("Note = " + note);
-		
 	}
 
-	}
+}
